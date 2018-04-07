@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p
+    | try navigating to 
+    | <a href="http://#{APP_URL}/welcome">welcome</a>
+    | or
+    | <a href="http://#{APP_URL}:4000/teapot">teapot</a>
